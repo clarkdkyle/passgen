@@ -1,0 +1,27 @@
+/* buttons */
+.btn {background-color: #f44336;} /* Red */
+
+
+
+/* center objects */
+body {
+    min-height: 100vh;
+    padding-top: 100px;
+    background: #e8eaed;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    margin: auto;
+    width: 90%;
+    max-width: 380px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  
