@@ -1,27 +1,49 @@
 /* buttons */
-.btn {background-color: #f44336;} /* Red */
-
-
+.btn2 {background-color: lightgray;}
+.btn2 {
+  align-self: right;
+}
 
 /* center objects */
-body {
-    min-height: 100vh;
+body {    min-height: 100vh;
     padding-top: 100px;
     background: #e8eaed;
-    font-family: "Kanit", sans-serif;
     font-weight: 300;
   }
 
   .wrapper {
     overflow: hidden;
     margin: auto;
-    width: 90%;
-    max-width: 380px;
-    background: white;
+    width: 800px;
+    background: whitesmoke;
     border-radius: 5px;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4);
     display: flex;
     flex-flow: column wrap;
   }
+  .card {
+    align-self: center;
+    background-color: white;
+    width: 95%;
+    height: 95%
+  }
 
-  
+
+
+/* text formatting  */
+h1 {
+    text-align: center;
+
+}
+textarea {
+  width: 750px;
+  height: 175px;
+}
+
+.btn2 {
+  text-shadow: white;
+}
+
+::placeholder{
+  text-align: center;
+}
